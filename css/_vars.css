@@ -1,0 +1,17 @@
+:root {
+  --dark-primary: #2A254B;
+  --primary: #4e4d93;
+  --light-grey:#f9f9f9;
+  --white: #ffffff;
+  --border-dark: #cac6da;
+  --images--dark-chair: #f6f6f6;
+
+  --font-family: "Satoshi", sans-serif;
+  --second-family: "Clash Display", sans-serif;
+
+  --gap: 20px;
+  --container-width: 1280px;
+  --container-offset: 15px;
+  --main-trs: color 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+  --outline: 2px dashed currentColor;
+}

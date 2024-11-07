@@ -1,0 +1,50 @@
+.benefits {
+  padding: 60px;
+  padding-bottom: 60px;
+}
+
+.benefits__list {
+  grid-gap: 58px;
+}
+
+.benefits__item {
+  grid-column: 3 span;
+  padding-top: 40px;
+  background-position: left top;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.benefits__item--next {
+  background-image: url(../img/Delivery.svg);
+}
+
+.benefits__item--made {
+  background-image: url(../img/Checkmark--outline.svg);
+}
+
+.benefits__item--prices {
+  background-image: url(../img/Purchase.svg);
+}
+
+.benefits__item--packaging {
+  background-image: url(../img/Sprout.svg);
+}
+
+.benefits__subtitle {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--dark-primary);
+}
+
+.benefits__description {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--dark-primary);
+}

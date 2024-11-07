@@ -1,0 +1,11 @@
+.logo {
+  text-decoration: none;
+}
+
+.logo_link:focus {
+  outline:none;
+}
+.logo__link:focus-visible {
+  outline: var(--outline);
+  outline-offset: var(--outline);
+}

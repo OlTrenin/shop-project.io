@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form__input {
+background-color: var(--light-grey);
+color: var(--dark-primary);
+padding-left: 32px;
+padding-right: 20px;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+border: none;
+width: 354px;
+height: 56px;
+}
+
+.form__input::placeholder {
+  color:rgba(42, 37, 75, 0.5);
+}
